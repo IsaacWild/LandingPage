@@ -1,0 +1,106 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #1F2937;
+}
+
+.header{
+    /* border: red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.logo{
+    /* border: yellow dashed; */
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 1000;
+    font-style: italic;
+    padding: 20px;
+    flex: 0 1 auto;
+}
+
+.logo1{
+    align-self: flex-start;
+    padding-left: 1.5ch;
+}
+.logo2{
+    align-self: center;
+}
+.logo3{
+    align-self: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    /* border: green dashed; */
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 800;
+    flex: 0 1 auto;
+}
+
+li{
+    /* border: deeppink dotted; */
+    padding: 10px;
+}
+
+.topcontainer{
+    /* border: orange solid; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    padding: 75px;
+}
+
+.sign-up-container{
+    /* border: steelblue dotted; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 28px;
+    max-width: 600px;
+    flex: 0 1 auto;
+    gap: 8px;
+}
+
+.topconmaintext{
+    display: flex;
+    font-size: 48px;
+    font-weight: 1000;
+    max-width: 500px;
+    flex: 0 1 auto;
+}
+
+.topconsubtext{
+    font-size: 18px;
+}
+
+.image{
+    max-width: 800px;
+    min-width: 200px;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 12px;
+}
