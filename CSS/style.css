@@ -59,7 +59,7 @@ li{
     padding: 10px;
 }
 
-.topcontainer{
+.sectionone{
     /* border: orange solid; */
     color: white;
     display: flex;
@@ -105,3 +105,33 @@ button{
     border-radius: 12px;
 }
 /* This has been 2  and a half hours work on this */
+
+.sectiontwo{
+    border: limegreen solid;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+
+.sectwocon{
+    border: thistle dotted;
+    display: flex;
+    flex: auto;
+    gap: 20px;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.boximage{
+    border: turquoise dashed;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.imgtext{
+    border: firebrick solid;
+    display: flex;
+    justify-content: center;
+}
+/* 3 hours 10 min */
