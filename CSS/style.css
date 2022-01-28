@@ -160,31 +160,61 @@ button{
 }
 
 .sectionthree{
-    border: violet solid;
+    /* border: violet solid; */
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
 }
 
 .secthreetext{
-    border: tan dashed;
+    /* border: tan dashed; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
+    max-width: 800px;
+    align-items: flex-end;
 }
 
 .quote{
-    border: deeppink double;
+    /* border: deeppink double; */
     display: flex;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     max-width: 800px;
+    margin-bottom: -36px;
 }
 
 .name{
-
+    /* border:mediumvioletred solid; */
+    font-weight: 1000;
+    font-size: 20px;
 }
 
 /* 4 hours */
+
+.sectionfour{
+    border:lime solid;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.secfourcon{
+    border: rgb(255, 0, 170) dashed;
+    display: flex;
+    flex: 0 1 auto;
+    padding: 30px;
+    background-color: #3882f6;
+    margin: 80px;
+    border-radius: 20px;
+    min-width: 800px;
+    max-height: 150px;
+}
+/* 4 hours 30 min */
