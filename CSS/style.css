@@ -3,8 +3,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
-    /* border: red solid; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,7 +16,6 @@ body{
 }
 
 .logo{
-    /* border: yellow dashed; */
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -40,7 +43,6 @@ a{
 }
 
 ul{
-    /* border: green dashed; */
     display: flex;
     gap: 8px;
     padding: 0;
@@ -52,12 +54,10 @@ ul{
 }
 
 li{
-    /* border: deeppink dotted; */
     padding: 10px;
 }
 
 .sectionone{
-    /* border: orange solid; */
     color: white;
     display: flex;
     justify-content: center;
@@ -67,7 +67,6 @@ li{
 }
 
 .sign-up-container{
-    /* border: steelblue dotted; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,10 +101,8 @@ button{
     font-size: 18px;
     border-radius: 12px;
 }
-/* This has been 2  and a half hours work on this */
 
 .sectiontwo{
-    /* border: limegreen solid; */
     display: flex;
     background-color: white;
     flex-direction: column;
@@ -121,7 +118,6 @@ button{
 }
 
 .sectwocon{
-    /* border: thistle dotted; */
     display: flex;
     flex-direction: column;
     flex: auto;
@@ -130,22 +126,18 @@ button{
 }
 
 .boximage{
-    /* border: turquoise dashed; */
     max-width: 250px;
     max-height: 250px;
     border-radius: 25px; 
 }
 
 .textcon{
-    /* border: firebrick solid; */
     display: flex;
     gap: 78px;
     margin-top: 10px;
 }
-/* 3 hours 10 min */
 
 .imgcon{
-    /* border: goldenrod solid; */
     display: flex;
     align-items: center;
     gap: 50px;
@@ -153,14 +145,12 @@ button{
 }
 
 .imgtext{
-    /* border: seagreen solid; */
     display: flex;
     max-width: 225px;
     text-align: center;
 }
 
 .sectionthree{
-    /* border: violet solid; */
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -168,7 +158,6 @@ button{
 }
 
 .secthreetext{
-    /* border: tan dashed; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,7 +168,6 @@ button{
 }
 
 .quote{
-    /* border: deeppink double; */
     display: flex;
     font-size: 36px;
     font-style: italic;
@@ -190,15 +178,11 @@ button{
 }
 
 .name{
-    /* border:mediumvioletred solid; */
     font-weight: 1000;
     font-size: 20px;
 }
 
-/* 4 hours */
-
 .sectionfour{
-    border:lime solid;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -207,14 +191,74 @@ button{
 }
 
 .secfourcon{
-    border: rgb(255, 0, 170) dashed;
     display: flex;
     flex: 0 1 auto;
     padding: 30px;
     background-color: #3882f6;
+    color: white;
     margin: 80px;
-    border-radius: 20px;
+    border-radius: 6px; 
     min-width: 800px;
     max-height: 150px;
+    justify-content: space-around;
+    align-items: center;
 }
-/* 4 hours 30 min */
+
+.secfourlabel{
+    display: flex;
+    flex-direction: column;
+}
+
+.secfourbutton{
+    border:honeydew solid;
+}
+
+.secfourtext{
+    font-weight: 1000;
+
+}
+
+.secfoursubtext{
+    font-weight: 300;
+}
+
+.footer{
+    background: #1F2937;
+    min-height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutmepage{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutme{
+    background-color: #3882f6;
+    border-radius: 18px;
+    max-width: 1500px;
+    margin-bottom: 50px;
+}
+
+.aboutmetitle{
+    color: white;
+    margin: 20px;
+    font-size: 38px;
+}
+
+.paragraphscon{
+    margin: 60px;
+}
+
+.ps{
+    font-style: italic;
+}
+
+/* Total time 5 hours! */
